@@ -1,22 +1,15 @@
-/* .two{
-  font-size:20px;
-  color:red;
-} */
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padd: 0;
+}
 
-/* #three{
-  font-size:20px;
-  color:blue;
-} */
+.box {
+  width: 300px;
+  height: 150px;
+  background: pink;
 
-/* *{
-  color:yellow;
-} */
-
-/* p,h2{
-  font-size:22px;
-  color:green;
-} */
-
-a:hover{
-  color:green;
+  padding: 30px;
+  border: 30px solid red;
+  margin: 20px;
 }

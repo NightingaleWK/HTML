@@ -14,6 +14,8 @@ body{
   background-color: #fff;
   padding: 20px;
   border-radius: 5px;
+  /* display: flex; */
+
 }
 
 .container img{
@@ -21,7 +23,7 @@ body{
 }
 
 .container h1{
-  font-size: 24px;
+  font-size: 30px;
   margin: 20px 0px;
 }
 
@@ -32,4 +34,31 @@ body{
 
 .container p{
   margin-bottom: 20px;
+}
+
+.this{
+  padding: 30px;
+  width: 90%;
+  background-color: #eee;
+  margin: 50px auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: baseline;
+
+}
+
+
+.one{
+  width: 100px;
+  flex-grow: 1;
+}
+.two{
+  width: 150px;
+  /* align-self: flex-end; */
+  flex-grow: 1;
+}
+.three{
+  width: 300px;
+  flex-grow: 1;
 }
